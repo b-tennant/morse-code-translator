@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap') repeat scroll 0 0 rgba(0, 0, 0 , 0);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    padding: 30px;
+    font-size: 25px;
+  }
+  .outside {
+    margin: 20 auto;
+    width: 400px;
+    height: 50%;
+    border: 3px solid white;
+    border-radius: 25px;
+    padding: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #text {
+      padding: 5px
+  }
+  
+  
+  p {
+    padding: 30px;
+    font-size: 50px;
+  }
+  
+  .button {
+    background-color: grey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 50px 2px;
+    cursor: pointer;
+  }
+
+
+  #wrapper {
+    background: url("https://images.unsplash.com/photo-1465146633011-14f8e0781093?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3450&q=80");
+    color: #eee;
+    width: 400px;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+    animation: animation 100s linear infinite;
+  }
+  
+  @keyframes animation {
+     100%{
+      background-position:0px -3000px;
+    }
+  }
